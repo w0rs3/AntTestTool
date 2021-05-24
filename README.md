@@ -1,5 +1,5 @@
 # AntTestTool
-This is a test tool for Langton's ant extensions on tori. The extensions included so far build on multicolor sets, discrete convolution, variable multidimensional spaces and the combination with a fractal. The 3 last mentioned extensions are presented here for the first time. The test tool can be used in combination with the NIST-Statistical-Test-Suite. The test tool is used to check the suitability of models as PRG or block ciphers.
+This is a test tool for Langton's ant extensions on tori. The extensions included so far build on multicolor sets, discrete convolution, variable multidimensional spaces and the combination with a fractal. The 3 last mentioned extensions are presented here for the first time. The test tool can be used in combination with the NIST-Statistical-Test-Suite. The test tool is used to check the suitability of models as PRG or block ciphers. Therefore invertibility, ring formation and randomness can be investigated. 
 
 ## Prerequisites
 ### Mandatory
@@ -34,3 +34,6 @@ Here ring stands for an arrangement of states, objects, properties, or variables
 A lasso consists of a ring and a finite number of additional elements which belong to no ring. The additional elements are related to the ring in such a way that they lead to the ring in forward direction. If a lasso is detected that means indirectly that there is a bridge between 2 rings detected.
 ![ring_lasso_bridge](https://user-images.githubusercontent.com/61475724/119404442-1b33ae00-bce0-11eb-99bd-e0377c761c61.png)  
 __Figure 3__: Ring, lasso and 2 rings connected by a bridge
+
+### Note on invertibility and ring formation
+A ring is created when the ant cyclically restores the initial memory after a fixed number of steps. Invertible means that the ant executes x steps on any memory, then is inverted and after another x steps, restores the original memory state. These 2 characteristics are so closely related that either both apply, or both do not apply.
