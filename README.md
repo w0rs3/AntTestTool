@@ -1,5 +1,5 @@
 # AntTestTool
-A test tool for Langton's ant extensions. Can be used in combination with the NIST-Statistical-Test-Suite.
+This is a test tool for Langton's ant extensions on tori. The extensions included so far build on multicolor sets, discrete convolution, variable multidimensional spaces and the combination with a fractal. The test tool can be used in combination with the NIST-Statistical-Test-Suite. It is used to check the suitability of models as PRG or block ciphers.
 
 ## Prerequisites
 ### Mandatory
