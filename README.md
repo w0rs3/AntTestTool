@@ -36,4 +36,4 @@ A lasso consists of a ring and a finite number of additional elements which belo
 __Figure 3__: Ring, lasso and 2 rings connected by a bridge
 
 ### Note on invertibility and ring formation
-A ring is created when the ant cyclically restores the initial memory after a fixed number of steps. Invertible means that the ant executes any x steps on any memory, then is inverted and after another x steps, restores the original memory state. These 2 characteristics are so closely related that either both apply, or both do not apply. This means that if even one lasso can be detected, the model is not invertible in all cases. 
+A ring is created when the ant cyclically restores the initial memory after a fixed number of steps. Invertible means that the ant executes any x steps on any memory, then is inverted and after another x steps, restores the original memory state. These 2 characteristics are so closely related that either both apply, or both do not apply. This means that if even 1 lasso can be detected, the ant is not invertible in all cases. 
