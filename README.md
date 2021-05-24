@@ -12,11 +12,11 @@ SBT
 https://github.com/terrillmoore/NIST-Statistical-Test-Suite
 
 ## Overview
-![Class-Diagram](https://user-images.githubusercontent.com/61475724/119365517-48686800-bcb0-11eb-9df7-432a0bc04726.png)
+![Class-Diagram](https://user-images.githubusercontent.com/61475724/119365517-48686800-bcb0-11eb-9df7-432a0bc04726.png)  
 Figure 1: Simplified UML class diagram
 
 ## Run the project
-![sbt](https://user-images.githubusercontent.com/61475724/119367180-fb859100-bcb1-11eb-89f6-5aa7e7a11ca4.PNG)
+![sbt](https://user-images.githubusercontent.com/61475724/119367180-fb859100-bcb1-11eb-89f6-5aa7e7a11ca4.PNG)  
 Figure 2: Launch the project using SBT
 
 ## Related papers
