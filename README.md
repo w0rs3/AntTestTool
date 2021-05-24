@@ -20,5 +20,11 @@ A simple way to launch the project is to use __sbt run__. The displayed warning 
 ![sbt](https://user-images.githubusercontent.com/61475724/119367180-fb859100-bcb1-11eb-89f6-5aa7e7a11ca4.PNG)  
 __Figure 2__: Launch the project using SBT
 
-## Related papers
-Report.pdf can be used as a manual.
+## Application notes
+### Note on Ant2DConv, AntConv and Ant2DMC
+If one of these models is selected, first the number of the now following parameters must be specified and then each parameter individually. Both the number and the individual parameters must be confirmed with Enter. Ant2DConv and Ant2DMC expect only 0 or 1 as parameter. For AntConv the parameters must be integer values, for which the following applies:  
+0 <= param < 2*(dimension-1)
+### Note on FractalAnt
+The configuration must meet the following condition:  
+dimension = subdimension*(depth+1)  
+FractalAnt is not invertible in all valid configurations, so currently a bug is still assumed. However, it can be assumed that the functionality for invertible configurations, work flawlessly.
