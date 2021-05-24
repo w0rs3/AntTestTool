@@ -16,7 +16,7 @@ NIST-Statistical-Test-Suite: https://github.com/terrillmoore/NIST-Statistical-Te
 __Figure 1__: Simplified UML class diagram
 
 ## Run the project
-Use __sbt run__ to launch the Project. The displayed warning can be ignored.
+A simple way to launch the project is to use __sbt run__. The displayed warning can be ignored.
 ![sbt](https://user-images.githubusercontent.com/61475724/119367180-fb859100-bcb1-11eb-89f6-5aa7e7a11ca4.PNG)  
 __Figure 2__: Launch the project using SBT
 
