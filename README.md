@@ -3,12 +3,12 @@ A test tool for Langton's ant extensions. Can be used in combination with the Ni
 
 ## Prerequisites
 ### Mandatory
-Scala library container version 2.12.3
+Scala library container version 2.12.3  
 Java 1.8
 
 ### Optional
-Scala IDE
-SBT
+Scala IDE  
+SBT  
 https://github.com/terrillmoore/NIST-Statistical-Test-Suite
 
 ## Overview
