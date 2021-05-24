@@ -32,5 +32,5 @@ FractalAnt is not invertible in all valid configurations, so currently a bug is 
 ### Note on vocabulary
 Here ring stands for an arrangement of states, objects, properties, or variables according to a circle in graph theory. Here, each element of a ring has an in-ring predecessor and successor. It is important that from each element, its predecessor and successor can be reached. Elements of a ring can have additionally elements outside of the ring as predecessors. A ring has a defined forward and backward direction.  
 A lasso consists of a ring and a finite number of additional elements which belong to no ring. The additional elements are related to the ring in such a way that they lead to the ring in forward direction.
-![ring_lasso](https://user-images.githubusercontent.com/61475724/119402833-c98a2400-bcdd-11eb-831d-012d9d512477.png)
+![ring_lasso](https://user-images.githubusercontent.com/61475724/119402833-c98a2400-bcdd-11eb-831d-012d9d512477.png)  
 __Figure 3__: Ring and lasso
