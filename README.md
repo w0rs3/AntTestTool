@@ -10,7 +10,7 @@ SBT: https://www.scala-sbt.org/download.html
 NIST-Statistical-Test-Suite: https://github.com/terrillmoore/NIST-Statistical-Test-Suite
 
 ## Overview
-![Class-Diagram](https://user-images.githubusercontent.com/61475724/119365517-48686800-bcb0-11eb-9df7-432a0bc04726.png)  
+![Class-Diagram](https://user-images.githubusercontent.com/61475724/120396799-78121280-c337-11eb-9c35-28b438dd62b5.png)  
 __Figure 1__: Simplified UML class diagram
 
 ## Run the project
