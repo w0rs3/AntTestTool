@@ -25,7 +25,6 @@ If one of these models is selected, first the number of the now following parame
 ### Note on FractalAnt
 The configuration must meet the following condition:  
 dimension = subdimension*(depth+1)  
-FractalAnt is not invertible in all valid configurations, so currently a bug is still assumed. However, it can be assumed that the functionality for invertible configurations, work flawlessly.
 
 ### Note on vocabulary
 Here ring stands for an arrangement of states, objects, properties, or variables according to a circle in graph theory. Here, each element of a ring has an in-ring predecessor and successor. It is important that from each element, its predecessor and successor can be reached. Elements of a ring can have additionally elements outside of the ring as predecessors. A ring has a defined forward and backward direction.  
