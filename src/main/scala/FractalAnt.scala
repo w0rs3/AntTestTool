@@ -91,7 +91,7 @@ class FractalAnt extends Ant {
   protected def recolor = {
     val index = positionToIndex
     memory(index) = (memory(index)+1)%colorSetSize
-    if(depth>1){
+    if(depth>=1){
       children(index).recolorAll
     }
   }
@@ -347,7 +347,7 @@ class FractalAnt extends Ant {
     val index = positionToIndex
     memory(index) -= 1
     if(memory(index)<0) memory(index) += colorSetSize
-    if(depth>1){
+    if(depth>=1){
       children(index).invertedRecolorAll
     }
   }
