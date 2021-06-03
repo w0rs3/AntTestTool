@@ -7,7 +7,7 @@ Java 1.8
 ### Optional
 Scala IDE: http://scala-ide.org/  
 SBT: https://www.scala-sbt.org/download.html  
-NIST-Statistical-Test-Suite: https://github.com/terrillmoore/NIST-Statistical-Test-Suite
+NIST-Statistical-Test-Suite: https://csrc.nist.gov/projects/random-bit-generation/documentation-and-software
 
 ## Overview
 ![Class-Diagram](https://user-images.githubusercontent.com/61475724/120396799-78121280-c337-11eb-9c35-28b438dd62b5.png)  
