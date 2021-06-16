@@ -28,7 +28,8 @@ dimension = subdimension*(depth+1)
 
 ### Note on vocabulary
 Here ring stands for an arrangement of states, objects, properties, or variables according to a circle in graph theory. Here, each element of a ring has an in-ring predecessor and successor. It is important that from each element, its predecessor and successor can be reached. Elements of a ring can have additionally elements outside of the ring as predecessors. A ring has a defined forward and backward direction.  
-A lasso consists of a ring and a finite number of additional elements which belong to no ring. The additional elements are related to the ring in such a way that they lead to the ring in forward direction. If a lasso is detected that means indirectly that there is a bridge between 2 rings detected.
+A lasso consists of a ring and a finite number of additional elements which belong to no ring. The additional elements are related to the ring in such a way that they lead to the ring in forward direction. If a lasso is detected that means indirectly that there is a bridge between 2 rings detected.  
+Rings are detected by matching the initial memory with memories of the following steps. Therefore, mostly only parts of rings are recognized because the state of the read/write head is not considered.
 ![ring_lasso_bridge](https://user-images.githubusercontent.com/61475724/119404442-1b33ae00-bce0-11eb-99bd-e0377c761c61.png)  
 __Figure 3__: Ring, lasso and 2 rings connected by a bridge
 
