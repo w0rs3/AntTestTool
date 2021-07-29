@@ -1,8 +1,9 @@
 # AntTestTool
 This is a test tool for Langton's ant extensions on tori. The extensions included so far build on multicolor sets, discrete convolution, variable multidimensional spaces and the combination with a fractal. The 3 last mentioned extensions are presented here for the first time. The test tool can be used in combination with the NIST-Statistical-Test-Suite. The test tool is used to check the suitability of models as PRG or block ciphers. Therefore invertibility, ring formation and randomness can be investigated. 
 
-## Explainer Video
+## Explainer Video and Paper
 https://youtu.be/X5Kygoyrh9k
+https://epb.bibl.th-koeln.de/frontdoor/index/index/docId/1697
 
 ## Prerequisites
 Scala library container version 2.12.3  
